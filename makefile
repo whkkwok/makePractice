@@ -1,5 +1,6 @@
 #
 # http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+# http://www.gnu.org/software/make/manual/make.html
 # http://www.opussoftware.com/tutorial/TutMakefile.htm
 #
 
