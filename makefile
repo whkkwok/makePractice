@@ -1,3 +1,8 @@
+#
+# http://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+# http://www.opussoftware.com/tutorial/TutMakefile.htm
+#
+
 IDIR=include
 ODIR=obj
 LDIR=lib
