@@ -1,12 +1,13 @@
 CC=gcc
 CFLAGS=-Wall -g -I.
 DEPS=hellomake.h
+OBJ=hellomake.o hellofunc.o
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS) 
 
-hellomake: hellomake.o hellofunc.o
-	$(CC) $(CFLAGS) -o hellomake hellomake.o hellofunc.o
+hellomake: $(OBJ)
+	$(CC) $(CFLAGS) -o $@ $^
 
 .PHONY: clean
 
